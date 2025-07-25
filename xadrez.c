@@ -28,6 +28,28 @@ int main(){
         j++;
     }while (j <= movRainha);
 
+    ///Movimento do Cavalo.
+    
+    int movCavaloBaixo = 2;
+    int movCavaloEsquerda = 1;
+    
+    printf("\nMovimento do Cavalo (em 'L': 2 casas para baixo, 1 para a esquerda):\n");
+
+    for(int baixo = 0; baixo < movCavaloBaixo; baixo++){
+        printf("Baixo\n");
+        
+        int esquerda = 0;
+        while(esquerda < movCavaloEsquerda && baixo == movCavaloBaixo - 1){///somente na última iteração do for
+            printf("Esquerda\n");
+            esquerda++;
+        }
+    
+    
+    }
+
+
+
+
     
  
 
